@@ -1,0 +1,57 @@
+h1 {
+    padding: 0.2em 0.4em;
+    /*font-family: 'Bellefair', serif;*/
+    font-family: 'Marcellus SC', serif;
+}
+
+h2 {
+    padding: 1em;
+}
+
+
+.jumbotron {
+    color: black;
+    background-color: FireBrick;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 0.3em solid Goldenrod;
+    border-radius: 1em;
+    opacity: 0.9;
+}
+
+#my-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: Goldenrod;
+    height: 8em;
+    width: 50%;
+    border-radius: 1em;
+    margin-left: 2em;
+}
+
+/* height/width ratio 0.8 */
+#my-photo {
+    height: 4em;
+    width: 3.2em;
+}
+
+.panel-default>.panel-heading {
+    background-color: Navy;
+    background-image: none;
+    border: 0.3em solid Goldenrod;
+    border-radius: 1em;
+    opacity: 0.9;
+}
+
+.panel-title {
+    color: black;
+    background-color: Goldenrod;
+    font-size: 2em;
+    border-radius: 0.3em;
+}
+
+#my-life {
+    margin: 1em;
+    width: 90%;
+}
