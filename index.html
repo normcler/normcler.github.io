@@ -19,49 +19,119 @@
 
   <body>
     <header class="jumbotron">
+
+      <!-- photo, name, nav-bar to locations on the sheet-->
       <div id="my-heading">
         <img src="./resources/images/norms-portrait.jpg" id="my-photo"/>
         <h1>Norm Clerman</h1>
       </div>
+      <nav class="navbar navbar-default" id="head-nav">
+        <!--<div class="container-fluid">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+            <ul class="nav navbar-nav">
+              <li><a href="#my-life" class="nav-link">Life</a></li>
+              <li><a href="#my-schooling" class="nav-link">Schooling</a></li>
+              <li><a href="#my-labor" class="nav-link">Labour</a></li>
+              <li><a href="#my-enthusiams" class="nav-link">Enthusiams</a></li>
+              <li><a href="#contact-me" class="nav-link">Contact</a></li>
+            </ul>
+          <!--</div>
+        </div>-->
+      </nav>
     </header>
 
     <!-- a class="panel" for each section-->
 
-    <section class="panel panel-default" id="my-life">
-      <div class="panel-heading">
-        <h1 class="panel-title">My Life Thus Far</h1>
-      </div>
-      <div class="panel-body">
-      </div>
-    </section>
+    <main>
+      <section class="panel panel-default" id="my-life">
+        <div class="panel-heading">
+          <h1 class="panel-title">My Life Thus Far</h1>
+        </div>
+        <div class="panel-body">
+        </div>
+      </section>
 
-    <div class="panel panel-default" id="my-labor">
-      <div class="panel-heading">
-        <h1 class="panel-title">My Labor</h1>
-      </div>
-      <div class="panel-body">
-      </div>
-    </div>    
+      <section class="panel panel-default" id="my-schooling">
+        <div class="panel-heading">
+          <h1 class="panel-title">My Schooling</h1>
+        </div>
 
-    <div class="panel panel-default" id="my-enthusiams">
-      <div class="panel-heading">
-        <h1 class="panel-title">My Enthusiasms</h1>
-      </div>
-      <div class="panel-body">
-      </div>
-    </div>    
+        <div class="panel-body"> <!-- Schooling -->
 
-    <div class="panel panel-default" id="contact-me">
-      <div class="panel-heading">
-        <h1 class="panel-title">Contact Me</h1>
-      </div>
-      <div class="panel-body">
-        <ul>
-          <li>Norman S. Clerman</li>
-          <li>norm[dot]clerman[at]gmail[dot]com</li>
-        </ul>
-      </div>
-    </div>    
+          <div class="panel panel-default" id="sub-panel"> <!-- Cont. Educ. -->
+            <div class="panel-heading">
+              <h4 class="panel-title">Continuing Education</h4>
+            </div>
+            <div class="panel-body">
+              <table class="table">
+              </table>
+            </div>
+          </div> <!-- Cont. Educ. -->
+
+          <div class="panel panel-default" id="sub-panel"> <!-- Univ. Educ. -->
+            <div class="panel-heading">
+              <h4 class="panel-title">University Education</h4>
+            </div>
+            <div class="panel-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Univerity</th>
+                    <th>Degree</th>
+                    <th>Field</th>
+                  </tr>
+                  <tr>
+                    <td>University of Maryland</td>
+                    <td>B.Sc.</td>
+                    <td>Aerospace Engineering</td>
+                  </tr>
+                  <tr>
+                    <td>M.I.T.</td>
+                    <td>M.Sc.</td>
+                    <td>Aeronautics and Astronautics</td>
+                  </tr>
+                  <tr>
+                    <td>University of Maryland</td>
+                    <td>M.Sc.</td>
+                    <td>Civil Engineering - Structurals</td>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          </div> <!-- Univ.Educ. -->
+
+        </div> <!-- Schooling -->
+
+      </section>
+
+      <section class="panel panel-default" id="my-labor">
+        <div class="panel-heading">
+          <h1 class="panel-title">My Labor</h1>
+        </div>
+        <div class="panel-body">
+        </div>
+      </section>    
+
+      <section class="panel panel-default" id="my-enthusiams">
+        <div class="panel-heading">
+          <h1 class="panel-title">My Enthusiasms</h1>
+        </div>
+        <div class="panel-body">
+        </div>
+      </section>
+
+      <section class="panel panel-default" id="contact-me">
+        <div class="panel-heading">
+          <h1 class="panel-title">Contact Me</h1>
+        </div>
+        <div class="panel-body">
+          <ul>
+            <li>Norman S. Clerman</li>
+            <li>norm[dot]clerman[at]gmail[dot]com</li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
   </body>
 </html>

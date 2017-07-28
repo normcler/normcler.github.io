@@ -1,7 +1,10 @@
+* {
+    /*font-family: 'Marcellus SC', serif;*/
+    font-family: 'Bellefair', serif;
+}
+
 h1 {
     padding: 0.2em 0.4em;
-    /*font-family: 'Bellefair', serif;*/
-    font-family: 'Marcellus SC', serif;
 }
 
 h2 {
@@ -16,11 +19,14 @@ h2 {
     padding-bottom: 1em;
     border: 0.3em solid Goldenrod;
     border-radius: 1em;
-    opacity: 0.9;
+    opacity: 0.8;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 #my-heading {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     background: Goldenrod;
@@ -28,12 +34,39 @@ h2 {
     width: 50%;
     border-radius: 1em;
     margin-left: 2em;
+    border: 1px solid transparent;
+    border-color: #e7e7e7;
 }
 
 /* height/width ratio 0.8 */
 #my-photo {
     height: 4em;
     width: 3.2em;
+}
+
+header nav {
+    display: inline-block;
+    left: 20%;
+}
+
+#head-nav {
+    border-radius: 0.8em;
+    margin-bottom: 0em;
+    background-color: Goldenrod;
+    background-image: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+main {
+    padding-top: 9.8em;
+}
+
+main section {
+    margin: 1em;
+    width: 90%;
 }
 
 .panel-default>.panel-heading {
@@ -49,9 +82,24 @@ h2 {
     background-color: Goldenrod;
     font-size: 2em;
     border-radius: 0.3em;
+    border: 1px solid transparent;
+    border-color: #e7e7e7;
 }
 
-#my-life {
-    margin: 1em;
-    width: 90%;
+#sub-panel {
+    width: 70%;
+}
+
+#sub-panel h4 {
+    font-size: 1.5em;
+}
+
+th {
+    font-size: 1.2em;
+    color: black;
+}
+
+td {
+    font-size: 1.1em;
+    color: black;
 }
