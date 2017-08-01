@@ -1,8 +1,7 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <title>Norman S. Clerman</title>
-    <lang="en">
 
     <!-- Bootstrap links-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
@@ -12,125 +11,250 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="./resources/css/style.css" rel="stylesheet" rel="stylesheet"/>
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bellefair|Marcellus+SC" rel="stylesheet">
   </head>
 
   <body>
-    <header class="jumbotron">
+    <main class="container-fluid">
+      <header class="jumbotron" id="head-jumbo">
+        <div class="container">
 
-      <!-- photo, name, nav-bar to locations on the sheet-->
-      <div id="my-heading">
-        <img src="./resources/images/norms-portrait.jpg" id="my-photo"/>
-        <h1>Norm Clerman</h1>
+          <!-- photo, name, nav-bar to locations on the sheet-->
+          <!--<div id="my-heading" class="col-md-6">-->
+          <div class="col-md-6">
+            <div id="my-heading">
+              <!--my-heading-->
+              <img src="./resources/images/norms-portrait.jpg" id="my-photo"/>
+              <span>Norm Clerman</span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="my-navbar">
+              <!--my navbar-->
+              <nav class="navbar navbar-default" id="head-nav">
+                <!--<div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+                <ul class="nav navbar-nav">
+                  <li><a href="#my-life" class="nav-link">Life</a></li>
+                  <li><a href="#my-schooling" class="nav-link">Schooling</a></li>
+                  <li><a href="#my-labor" class="nav-link">Labour</a></li>
+                  <li><a href="#my-enthusiams" class="nav-link">Enthusiams</a></li>
+                  <li><a href="#contact-me" class="nav-link">Contact</a></li>
+                </ul>
+                <!--</div>
+                    </div>-->
+              </nav>
+            </div>
+          </div>
+
+        </div>
+        
+      </header>
+      
+      <!-- a class="panel" for each section-->
+
+      <div class="sector-container row" id="my-life">
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h1 class="panel-title">My Life Thus Far</h1>
+          </div>
+          <div class="panel-body">
+          </div>
+        </section>
       </div>
-      <nav class="navbar navbar-default" id="head-nav">
-        <!--<div class="container-fluid">
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-            <ul class="nav navbar-nav">
-              <li><a href="#my-life" class="nav-link">Life</a></li>
-              <li><a href="#my-schooling" class="nav-link">Schooling</a></li>
-              <li><a href="#my-labor" class="nav-link">Labour</a></li>
-              <li><a href="#my-enthusiams" class="nav-link">Enthusiams</a></li>
-              <li><a href="#contact-me" class="nav-link">Contact</a></li>
-            </ul>
-          <!--</div>
-        </div>-->
-      </nav>
-    </header>
 
-    <!-- a class="panel" for each section-->
+      <div class="sector-container row" id="my-schooling">
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h1 class="panel-title">My Schooling</h1>
+          </div>
 
-    <main>
-      <section class="panel panel-default" id="my-life">
-        <div class="panel-heading">
-          <h1 class="panel-title">My Life Thus Far</h1>
-        </div>
-        <div class="panel-body">
-        </div>
-      </section>
+          <div class="panel-body"> <!-- Schooling -->
 
-      <section class="panel panel-default" id="my-schooling">
-        <div class="panel-heading">
-          <h1 class="panel-title">My Schooling</h1>
-        </div>
-
-        <div class="panel-body"> <!-- Schooling -->
-
-          <div class="panel panel-default" id="sub-panel"> <!-- Cont. Educ. -->
-            <div class="panel-heading">
-              <h4 class="panel-title">Continuing Education</h4>
-            </div>
-            <div class="panel-body">
-              <table class="table">
-              </table>
-            </div>
-          </div> <!-- Cont. Educ. -->
-
-          <div class="panel panel-default" id="sub-panel"> <!-- Univ. Educ. -->
-            <div class="panel-heading">
-              <h4 class="panel-title">University Education</h4>
-            </div>
-            <div class="panel-body">
-              <table class="table">
-                <thead>
+            <div class="panel panel-default"> <!-- Cont. Educ. -->
+              <div class="panel-heading sub-panel">
+                <h4 class="panel-title">Continuing Education</h4>
+              </div>
+              <div class="panel-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>School</th>
+                      <th>Date</th>
+                      <th>Name</th>
+                    </tr>
+                  </thead>
                   <tr>
-                    <th>Univerity</th>
-                    <th>Degree</th>
-                    <th>Field</th>
+                    <td>Coding Temple</td>
+                    <td>2017</td>
+                    <td>.NET Full Stack Bootcamp</td>
                   </tr>
                   <tr>
+                    <td>Enthought Scientific Computing Solutions</td>
+                    <td>2016</td>
+                    <td>Pandas Crash Course</td>
+                  </tr>
+                  <tr>
+                    <td>University Of Illinois</td>
+                    <td>2013</td>
+                    <td>Beginning Python</td>
+                  </tr>
+                  <tr>
+                    <td>University Of Illinois</td>
+                    <td>2012</td>
+                    <td>JavaScript: An Introduction</td>
+                  </tr>
+                  <tr>
+                    <td>University Of Illinois</td>
+                    <td>2012</td>
+                    <td>Introduction to HTML5 and CSS</td>
+                  </tr>
+                </table>
+              </div>
+            </div> <!-- Cont. Educ. -->
+
+            <div class="panel panel-default"> <!-- Univ. Educ. -->
+              <div class="panel-heading sub-panel">
+                <h4 class="panel-title">University Education</h4>
+              </div>
+              <div class="panel-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Univerity</th>
+                      <th>Year</th>
+                      <th>Degree</th>
+                      <th>Field</th>
+                    </tr>
+                  </thead>
+                  <tr>
                     <td>University of Maryland</td>
+                    <td>1968</td>
                     <td>B.Sc.</td>
                     <td>Aerospace Engineering</td>
                   </tr>
                   <tr>
                     <td>M.I.T.</td>
+                    <td>1969</td>
                     <td>M.Sc.</td>
                     <td>Aeronautics and Astronautics</td>
                   </tr>
                   <tr>
                     <td>University of Maryland</td>
+                    <td>1977</td>
                     <td>M.Sc.</td>
-                    <td>Civil Engineering - Structurals</td>
+                    <td>Civil Engineering - Structures</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+        </section> <!--my-schooling  -->
+      </div> <!-- my-schooling -->
+
+        <div class="sector-container row" id="my-labor">
+          <section class="panel panel-default">
+            <div class="panel-heading">
+              <h1 class="panel-title">My Labor</h1>
+            </div>
+            <div class="panel-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Position</th>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Years</th>
                   </tr>
                 </thead>
+                <tr>
+                  <td>Software Engineer</td>
+                  <td>Global Data Consultants</td>
+                  <td>Chambersburg, PA.</td>
+                  <td>July 2013 to April 2016</td>
+                </tr>
+                <tr>
+                  <td>Senior Fortran Developer</td>
+                  <td>TEKSystems, Inc.</td>
+                  <td>Hanover, Maryland</td>
+                  <td>Sept. 2012 to June 2013</td>
+                </tr>
+                <tr>
+                  <td>Author</td>
+                  <td>N/A</td>
+                  <td>Cincinnati, OH</td>
+                  <td>April 2010 to December 2012</td>
+                </tr>
+                <tr>
+                  <td>Chief Computer Scientist</td>
+                  <td>Opcon Design Associates, Inc.</td>
+                  <td>Ramat HaSharon, Israel, Landover, MD, New York, NY, Cincinnati, OH</td>
+                  <td>August 1979 to April 2010</td>
+                </tr>
+                <tr>
+                  <td>Engineer</td>
+                  <td>Mekorot Water Company</td>
+                  <td>Tel Aviv, Israel</td>
+                  <td>June 1978 to August 1979</td>
+                </tr>
+                <tr>
+                  <td>Research Assistant</td>
+                  <td>Maryland State Highway Administration</td>
+                  <td>Baltimore, MD</td>
+                  <td>September 1976 to December 1978</td>
+                </tr>
+                <tr>
+                  <td>Aeronautical Engineer</td>
+                  <td>Israel Aircraft Industries</td>
+                  <td>Lod, Israel</td>
+                  <td>January 1974 to June 1978</td>
+                </tr>
+                <tr>
+                  <td>Aeronautical Engineer</td>
+                  <td>Booz-Allen Applied Research</td>
+                  <td>Bethesda, MD</td>
+                  <td>March 1973 to October 1973</td>
+                </tr>
+                <tr>
+                  <td>Lieutenant</td>
+                  <td>United States Air Force</td>
+                  <td>Sacremento, CA, Hampton, VA</td>
+                  <td>March 1970 to August 1972</td>
+                </tr>
               </table>
+              <div id="resume-container">
+                <a href="./resources/docs/NormanClermanResume.pdf"><h2>My Resume</h2></a>
+              </div>
             </div>
-          </div> <!-- Univ.Educ. -->
+          </section>    
+        </div>
 
-        </div> <!-- Schooling -->
+        <div class="sector-container row" id="my-enthusiams">
+          <section class="panel panel-default">
+            <div class="panel-heading">
+              <h1 class="panel-title">My Enthusiasms</h1>
+            </div>
+            <div class="panel-body">
+            </div>
+          </section>
+        </div>
 
-      </section>
-
-      <section class="panel panel-default" id="my-labor">
-        <div class="panel-heading">
-          <h1 class="panel-title">My Labor</h1>
+        <div class="sector-container row" id="contact-me">
+          <section class="panel panel-default">
+            <div class="panel-heading">
+              <h1 class="panel-title">Contact Me</h1>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li>Norman S. Clerman</li>
+                <li>norm[dot]clerman[at]gmail[dot]com</li>
+              </ul>
+            </div>
+          </section>
         </div>
-        <div class="panel-body">
-        </div>
-      </section>    
-
-      <section class="panel panel-default" id="my-enthusiams">
-        <div class="panel-heading">
-          <h1 class="panel-title">My Enthusiasms</h1>
-        </div>
-        <div class="panel-body">
-        </div>
-      </section>
-
-      <section class="panel panel-default" id="contact-me">
-        <div class="panel-heading">
-          <h1 class="panel-title">Contact Me</h1>
-        </div>
-        <div class="panel-body">
-          <ul>
-            <li>Norman S. Clerman</li>
-            <li>norm[dot]clerman[at]gmail[dot]com</li>
-          </ul>
-        </div>
-      </section>
     </main>
 
   </body>
