@@ -109,6 +109,10 @@ th {
     color: black;
 }
 
+.plain-text {
+    font-size: 1.2em;
+}
+
 td {
     font-size: 1.2em;
     color: black;
